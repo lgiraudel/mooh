@@ -11,7 +11,7 @@ describe('Mooh tests', function() {
   });
 
   it('should say Mooooh!', function() {
-    mooh.mooh();
+    mooh.mooh('Mooooh!');
 
     assert.equal(console.log.callCount, 11);
     sinon.assert.calledWithMatch(console.log, 'Mooooh!');

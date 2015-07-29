@@ -1,6 +1,6 @@
-function mooh() {
+function mooh(msg) {
   console.log('')
-  console.log('             Mooooh!');
+  console.log('             ' + msg);
   console.log('')
   console.log('         (__)');
   console.log('         (oo)');
